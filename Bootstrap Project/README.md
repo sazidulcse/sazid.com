@@ -189,23 +189,49 @@
 
   ```html
   <!-- nav example -->
-  <ul class="nav justify-content-center py-3 bg-primary">
-    <li class="nav-item">
-      <a class="nav-link text-white text-uppercase active" href="#">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white text-uppercase" href="#">Tutorial</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white text-uppercase" href="#">Gallery</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white text-uppercase" href="#">Contact</a>
-    </li>
-  </ul>
+ 
+        <header>
+            <div class="row bg-dark text-white mt-3 border rounded ">
+                <div class="col-lg-5 ml-auto">
+                    <h2 class="text-white text-center mb-0 py-2">sazidul rahman</h2>
+                </div>
+                <div class="col-lg-7">
+                    <ul class="nav py-3 justify-content-center ">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">project</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
   ```
 
-### [13. Toggleable dynamic tab and pill](https://youtu.be/VWxSH4zjF8c)
+### 13. Toggleable dynamic tab and pill
+  \
+  
+  
+  
+   <div class="tabsection">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item"><a data-toggle="tab" class="nav-link active" href="#skill">Name:</a></li>
+                    <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#edu">Roll</a></li>
+                    <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#hobby">Grade</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="skill" class="tab-pane active ">
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div id="edu" class="tab-pane fade ">
+                        <p>class 5- 7 class 10-16 iploma-435372</p>
+                    </div>
+                    <div id="hobby" class="tab-pane fade">
+                        <p>class 5- 3.72 class-10-4.25 iploma -3.60</p>
+                    </div>
+                </div>
+
+
 
 ### [14. Navbar](https://youtu.be/Exq0vXXe3DM)
 
